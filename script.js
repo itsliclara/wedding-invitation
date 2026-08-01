@@ -36,16 +36,5 @@ setInterval(function () {
 
 },1000);
 
-const openButton = document.getElementById("open-button");
-const cover = document.getElementById("cover");
-const invitationContent = document.getElementById("invitation-content");
-
-openButton.addEventListener("click", function () {
-    cover.style.display = "none";
-    invitationContent.style.display = "block";
-
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-});
+cover.style.display = "none";
+invitationContent.style.display = "block";
