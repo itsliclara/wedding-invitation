@@ -155,3 +155,37 @@ box-shadow:
 0 15px 30px rgba(212,161,90,.45);
 
 }
+#invitation-content {
+    display: none;
+}
+
+#cover {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 80px 25px;
+    text-align: center;
+}
+
+.section:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.small-title {
+    color: #a9702d;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.section-title {
+    color: #d4a34f;
+    font-size: 42px;
+    margin: 15px 0;
+}
