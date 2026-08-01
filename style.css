@@ -100,6 +100,28 @@ color:#8E6B48;
 
 .button {
     display: block;
-    width: fit-content;
-    margin: 20px auto 0;
+    margin: 35px auto 0;
+
+    padding: 15px 35px;
+
+    background: linear-gradient(
+        135deg,
+        #e4b45e,
+        #d7962c
+    );
+
+    color: white;
+    border: none;
+    border-radius: 50px;
+
+    font-size: 17px;
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 12px 25px rgba(201, 139, 46, 0.4);
 }
