@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const weddingDate = new Date("2026-08-26T15:00:00").getTime();
 
-    function updateCountdown() {
+    function updatecountdown() {
         if (
             !daysElement ||
             !hoursElement ||
