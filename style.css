@@ -202,3 +202,205 @@ color:#8E6B48;
     font-size: 16px;
     line-height: 1.8;
 }
+
+.couple-wrapper {
+    max-width: 800px;
+    margin: 40px auto 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.person-card {
+    width: 250px;
+    padding: 30px 20px;
+
+    background: rgba(255, 255, 255, 0.9);
+
+    border: 1px solid #eed6b4;
+    border-radius: 25px;
+
+    box-shadow: 0 12px 30px rgba(120, 80, 40, 0.1);
+}
+
+.photo-placeholder {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #f6d5d0,
+        #e5ac93
+    );
+
+    color: white;
+
+    border: 4px solid white;
+    border-radius: 50%;
+
+    font-family: "Great Vibes", cursive;
+    font-size: 60px;
+
+    box-shadow: 0 8px 20px rgba(120, 80, 40, 0.15);
+}
+
+.person-name {
+    margin: 10px 0;
+
+    color: #d9a441;
+
+    font-family: "Great Vibes", cursive;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.person-description {
+    color: #71665d;
+
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.couple-and {
+    color: #d9a441;
+
+    font-family: "Great Vibes", cursive;
+    font-size: 55px;
+}
+
+.event-card {
+    max-width: 450px;
+    margin: 35px auto 0;
+    padding: 35px 25px;
+
+    background: rgba(255, 255, 255, 0.94);
+
+    border: 1px solid #eed6b4;
+    border-radius: 25px;
+
+    box-shadow: 0 12px 35px rgba(120, 80, 40, 0.12);
+}
+
+.event-icon {
+    margin: 0 0 15px;
+
+    font-size: 35px;
+}
+
+.event-card h3 {
+    margin: 10px 0;
+
+    color: #a9702d;
+
+    font-size: 24px;
+}
+
+.event-card p {
+    margin: 8px 0;
+}
+
+.event-line {
+    width: 80px;
+    height: 1px;
+    margin: 25px auto;
+
+    background-color: #d9a441;
+}
+
+.venue-name {
+    color: #a9702d;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.location-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+
+    background: linear-gradient(
+        135deg,
+        #e5b254,
+        #cf8d28
+    );
+
+    color: white;
+    text-decoration: none;
+
+    border-radius: 50px;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+.location-button:hover {
+    transform: translateY(-3px) scale(1.04);
+
+    box-shadow:
+        0 12px 25px rgba(201, 139, 46, 0.35);
+}
+
+.closing-section {
+    min-height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background:
+        linear-gradient(
+            rgba(255, 248, 245, 0.9),
+            rgba(255, 248, 245, 0.9)
+        ),
+        url("https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.closing-name {
+    margin-top: 25px;
+
+    color: #d9a441;
+
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+}
+
+@media (max-width: 650px) {
+
+    .invitation-section {
+        padding: 60px 20px;
+    }
+
+    .section-names {
+        font-size: 48px;
+    }
+
+    .section-title {
+        font-size: 27px;
+    }
+
+    .couple-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .couple-and {
+        font-size: 45px;
+    }
+
+    .person-card {
+        width: 85%;
+        max-width: 280px;
+    }
+}
