@@ -36,7 +36,10 @@ body{
     margin: 20px 0;
 }
 .card {
-    width: 500px;
+    .card{
+    width: 90%;
+    max-width: 500px;
+}
     background:rgba(255,255,255,.92);
     backdrop-filter:blur(8px);
     padding: 20px;
