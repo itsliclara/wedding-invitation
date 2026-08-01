@@ -57,8 +57,41 @@ const cover = document.getElementById("cover");
 const invitationContent = document.getElementById("invitation-content");
 
 openButton.addEventListener("click", function () {
-    cover.style.display = "none";
-    invitationContent.style.display = "block";
+    gsap.to("#cover", {
+
+        opacity: 0,
+
+        scale: 0.95,
+
+        duration: 0.8,
+
+        ease: "power2.inOut",
+
+        onComplete: function () {
+
+            cover.style.display = "none";
+
+            invitationContent.style.display = "block";
+
+            window.scrollTo(0, 0);
+
+            gsap.from("#invitation-content", {
+
+                opacity: 0,
+
+                y: 80,
+
+                duration: 1,
+
+                ease: "power3.out"
+
+            });
+
+        }
+
+    });
+
+});
 
     window.scrollTo({
         top: 0,
