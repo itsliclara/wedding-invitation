@@ -1,27 +1,14 @@
-html::before {
-  content: 'CodePen ♥ The Web';
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  margin: auto;
-  width: fit-content;
-  height: fit-content;
-  font-family: monospace;
-  opacity: 0.6;
-  background: rebeccapurple;
-  color: white;
-  padding: 4px 8px;
-  border-radius: 4px;
-}
 body {
+   margin: 0;
+    min-height: 100vh;
     text-align: center;
+
     background-color: #ffeef5;
-}
-body{
-  background-image: url("https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg");
+    background-image: url("https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
     
 .ornament {
